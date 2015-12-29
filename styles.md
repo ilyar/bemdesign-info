@@ -1,24 +1,5 @@
 # bemcustom-style
 
-## Paddings/Margins
-  * **xxs** - 4px
-  * **xs** - 8px
-  * **s** - 16px
-  * **m** - 24px
-  * **l** - 32px
-  * **xl** - 48px
-  * **xxl** - 96px
-
-## Avatars
- * **s** - 60px
- * **m** - 90px
- * **l** - 120px
-  
-## Icons
- * **s** - 24px
- * **m** - 48px
- * **l** - 96px 
-
 ## Сolors
 ### the Big Colors theory - http://codepen.io/koloskof/pen/NGmeGL
 
@@ -49,7 +30,6 @@
 ### active
  * **$active** - hsl(120, 100%, 23%) - #070  
 
-
 ## Typography
 
 ### text
@@ -61,13 +41,13 @@
  * **xl** - 32px
 
 #### view
- * **&base** - #000
- * **&clean** - #fff
- * **&project** - #fc0
- * **&link** - #44b
- * **&normal** - #f6f5f3
- * **&alert** - #e61400
- * **&active** - #070
+ * **base** - #000
+ * **clean** - #fff
+ * **project** - #fc0
+ * **link** - #44b
+ * **normal** - #f6f5f3
+ * **alert** - #e61400
+ * **active** - #070
 
 #### weight
  * **bold** - bold
@@ -77,3 +57,25 @@
  * **block** - block
  * **inline-block** - inline-block
  * **inline** - inline
+ 
+## Paddings/Margins
+  * **xxs** - 4px
+  * **xs** - 8px
+  * **s** - 16px
+  * **m** - 24px
+  * **l** - 32px
+  * **xl** - 48px
+  * **xxl** - 96px
+
+## Avatars
+ * **s** - 60px
+ * **m** - 90px
+ * **l** - 120px
+  
+## Icons
+ * **s** - 24px
+ * **m** - 48px
+ * **l** - 96px 
+
+
+
