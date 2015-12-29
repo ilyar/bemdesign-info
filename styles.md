@@ -29,25 +29,25 @@
 
 ### base
  * **$base** - hsl(0, 0%, 0%) - #000
- * lighten(**$base**, 18%) - hsl(0, 0%, 18%) - #2e2e2e 
- * lighten(**$base**, 60%) - hsl(0, 0%, 60%) -  #999
- * lighten(**$base**, 80%) - hsl(0, 0%, 80%) - #ccc
+ * **lighten($base, 18%)** - hsl(0, 0%, 18%) - #2e2e2e 
+ * **lighten($base, 60%)** - hsl(0, 0%, 60%) -  #999
+ * **lighten($base, 80%)** - hsl(0, 0%, 80%) - #ccc
  
 ### normal
- * $normal - hsl(40, 14%, 96%) - #f6f5f3
- * lighten($normal, 86%) - hsl(40, 14%, 86%) - #e0ddd6   
+ * **$normal** - hsl(40, 14%, 96%) - #f6f5f3
+ * **lighten($normal, 86%)** - hsl(40, 14%, 86%) - #e0ddd6   
  
 ### clean
- * $clean - hsl(0, 0%, 100%) - #fff
+ * **$clean** - hsl(0, 0%, 100%) - #fff
   
 ### link
- * $link - hsl(240, 47%, 50%) - #44b 
+ * **$link** - hsl(240, 47%, 50%) - #44b 
   
 ### alert
- * $alert - hsl(0, 100%, 47%) - #e00
+ * **$alert** - hsl(0, 100%, 47%) - #e00
   
 ### active
- * $active - hsl(120, 100%, 23%) - #070  
+ * **$active** - hsl(120, 100%, 23%) - #070  
 
 
 #bemcustom-typography
