@@ -53,17 +53,17 @@
 ## Typography
 
 ### text
-#### text
+#### _size
   **_xs**
-    font-size: 13px
-    &_s
-      font-size: 15px /* bem-components s-size */
-    &_m
-      font-size: 18px /* bem-components l-size */
-    &_l
-      font-size: 24px
-    &_xl
-      font-size: 32px
+   font-size: 13px
+  **_s**
+   font-size: 15px /* bem-components s-size */
+  **_m**
+   font-size: 18px /* bem-components l-size */
+  **_l**
+   font-size: 24px
+  **_xl**
+   font-size: 32px
 
   &_view
     &_base
