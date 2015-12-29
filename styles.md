@@ -1,6 +1,6 @@
 # bemcustom-style
 
-## Typography - https://github.com/bemcustom/bemcustom-typography 
+## Typography - https://github.com/bemcustom/bemcustom-info/blob/master/typography.md
   
  
 ## Colors - https://github.com/bemcustom/bemcustom-colors
