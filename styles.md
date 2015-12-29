@@ -20,12 +20,12 @@
  * **l** - 96px 
 
 ## Сolors
-## the Big Colors theory - http://codepen.io/koloskof/pen/NGmeGL
+### the Big Colors theory - http://codepen.io/koloskof/pen/NGmeGL
 
-### project
- * $project - hsl(48, 100%, 50%) - #fc0 
- * lighten($project, 65%) - hsl(48, 100%, 65%) - #ffdb4d
- * lighten($project, 81%) - hsl(47, 100%, 81%) - #ffeba0   
+#### project
+ * **$project** - hsl(48, 100%, 50%) - #fc0 
+ * **lighten($project, 65%)** - hsl(48, 100%, 65%) - #ffdb4d
+ * **lighten($project, 81%)** - hsl(47, 100%, 81%) - #ffeba0   
 
 ### base
  * **$base** - hsl(0, 0%, 0%) - #000
