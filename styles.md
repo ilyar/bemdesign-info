@@ -53,7 +53,7 @@
 ## Typography
 
 ### text
-  #### _size
+  #### size
     **_xs**
       font-size: 13px
     &_s
