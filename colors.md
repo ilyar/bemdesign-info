@@ -2,9 +2,9 @@
 ## the Big Colors theory - http://codepen.io/koloskof/pen/NGmeGL
 
 ## project
- *#fc0  - hsl(48, 100%, 50%) / $project 
- * ffdb4d - hsl(48, 100%, 65%) / lighten($project, 65%)
- * ffeba0 - hsl(47, 100%, 81%) / lighten($project, 81%)
+ * #fc0  - hsl(48, 100%, 50%) / $project 
+ * #ffdb4d - hsl(48, 100%, 65%) / lighten($project, 65%)
+ * #ffeba0 - hsl(47, 100%, 81%) / lighten($project, 81%)
 
 ## base
  * #000 - hsl(0, 0%, 0%)
