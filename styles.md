@@ -52,7 +52,6 @@
 
 ## Typography
 
-```
 ### text
   ###_size
     **&_xs**
@@ -94,4 +93,3 @@
       display: inline-block
     &_inline
       display: inline
- ```
