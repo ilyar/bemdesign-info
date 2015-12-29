@@ -53,9 +53,9 @@
 ## Typography
 
 ### text
-### size
-    **_xs**
-      font-size: 13px
+### text
+  **_xs**
+    font-size: 13px
     &_s
       font-size: 15px /* bem-components s-size */
     &_m
