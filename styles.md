@@ -9,11 +9,10 @@
   * **xl** - 48px
   * **xxl** - 96px
 
-
 ## Avatars
-  * **s** - 60px
-  * **m** - 90px
-  * **l** - 120px
+ * **s** - 60px
+ * **m** - 90px
+ * **l** - 120px
   
 ## Icons
  * **s** - 24px
@@ -29,10 +28,10 @@
  * lighten($project, 81%) - hsl(47, 100%, 81%) - #ffeba0   
 
 ### base
- * *$base - hsl(0, 0%, 0%) - #000
- * lighten($base, 18%) - hsl(0, 0%, 18%) - #2e2e2e 
- * lighten($base, 60%) - hsl(0, 0%, 60%) -  #999
- * lighten($base, 80%) - hsl(0, 0%, 80%) - #ccc
+ * **$base** - hsl(0, 0%, 0%) - #000
+ * lighten(**$base**, 18%) - hsl(0, 0%, 18%) - #2e2e2e 
+ * lighten(**$base**, 60%) - hsl(0, 0%, 60%) -  #999
+ * lighten(**$base**, 80%) - hsl(0, 0%, 80%) - #ccc
  
 ### normal
  * $normal - hsl(40, 14%, 96%) - #f6f5f3
