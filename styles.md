@@ -53,7 +53,7 @@
  * **bold** - bold
  * **transform** - uppercase
 
-#### _display
+#### display
  * **block** - block
  * **inline-block** - inline-block
  * **inline** - inline
