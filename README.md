@@ -1,6 +1,6 @@
 #Install
 
-### Клонируем
+1. Клонируем
     
 ```
     git clone https://github.com/bemcustom/bemcustom-blocks bemcustom
