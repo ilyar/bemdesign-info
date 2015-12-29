@@ -20,36 +20,35 @@
  * **m** - 48px
  * **l** - 96px 
 
-
-# bemcustom-colors
+## Сolors
 ## the Big Colors theory - http://codepen.io/koloskof/pen/NGmeGL
 
-## project
- * #fc0  - hsl(48, 100%, 50%) / $project 
- * #ffdb4d - hsl(48, 100%, 65%) / lighten($project, 65%)
- * #ffeba0 - hsl(47, 100%, 81%) / lighten($project, 81%)
+### project
+ * $project - hsl(48, 100%, 50%) - #fc0 
+ * lighten($project, 65%) - hsl(48, 100%, 65%) - #ffdb4d
+ * lighten($project, 81%) - hsl(47, 100%, 81%) - #ffeba0   
 
-## base
- * #000 - hsl(0, 0%, 0%)
- * #2e2e2e - hsl(0, 0%, 18%) / alpha($base, 18%)
- * #999 - hsl(0, 0%, 60%)  / lighten($base, 60%)
- * #ccc - hsl(0, 0%, 80%)  / lighten($base, 80%)
+### base
+ * *$base - hsl(0, 0%, 0%) - #000
+ * lighten($base, 18%) - hsl(0, 0%, 18%) - #2e2e2e 
+ * lighten($base, 60%) - hsl(0, 0%, 60%) -  #999
+ * lighten($base, 80%) - hsl(0, 0%, 80%) - #ccc
  
-## normal
- * #f6f5f3 -  hsl(40, 14%, 96%) / $normal 
- * #e0ddd6 -  hsl(40, 14%, 86%) / lighten($normal, 86%)
+### normal
+ * $normal - hsl(40, 14%, 96%) - #f6f5f3
+ * lighten($normal, 86%) - hsl(40, 14%, 86%) - #e0ddd6   
  
-## clean
-  * #fff - hsl(0, 0%, 100%) / $clean
+### clean
+ * $clean - hsl(0, 0%, 100%) - #fff
   
-## link
-  * #44b  - hsl(240, 47%, 50%) / $link
+### link
+ * $link - hsl(240, 47%, 50%) - #44b 
   
-## alert
-  * #e00  - hsl(0, 100%, 47%) / $alert
+### alert
+ * $alert - hsl(0, 100%, 47%) - #e00
   
-## active
-  * #070  - hsl(120, 100%, 23%) / $active
+### active
+ * $active - hsl(120, 100%, 23%) - #070  
 
 
 #bemcustom-typography
