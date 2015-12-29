@@ -50,12 +50,12 @@
  * **$active** - hsl(120, 100%, 23%) - #070  
 
 
-#bemcustom-typography
+## Typography
 
 ```
-.text
-  &_size
-    &_xs
+### text
+  ###_size
+    **&_xs**
       font-size: 13px
     &_s
       font-size: 15px /* bem-components s-size */
