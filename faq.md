@@ -1,3 +1,15 @@
+```
+bemcustom
+   ├── desktop.blocks (bemcustom-blocks)
+   │   └── text 
+   └── libs
+       └── bem-components
+           └── design (bemcustom-components)
+               ├── colors.styl
+               ├── custom.styl
+               └── spaces.styl 
+```
+
 # FAQ bem-custom
 Библиотека блоков включает в себя основные блоки для "живого" прототипирования интерфейсов. Библиотека разрабатывается на стеке БЭМ технологи.
 
