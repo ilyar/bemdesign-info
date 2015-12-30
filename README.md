@@ -3,21 +3,21 @@
 ## bemcustom-blocks + bemcustom-components
 Клонируем библиотеку блоков
 ```
-    git clone https://github.com/bemcustom/bemcustom-blocks bemcustom
+git clone https://github.com/bemcustom/bemcustom-blocks bemcustom
 ```
  
 Устанавливаем все необходимые зависимости
 ```
-    npm i 
+npm i 
 ```
 
 Чтобы не указывать путь к исполняемому файлу (node_modules/.bin/enb) используем:
 ```
-    export PATH=./node_modules/.bin:$PATH
+export PATH=./node_modules/.bin:$PATH
 ```
 Запускаем сервер
 ```
-    bem server
+bem server
 ```
     
 ## Только bemcustom-components    
@@ -25,11 +25,11 @@
 
 Все изменяемые параметры вынесенны в переменные custom.styl + colors.styl
 ```
-    git clone https://github.com/bemcustom/bemcustom-components --branch custom design
+git clone https://github.com/bemcustom/bemcustom-components --branch custom design
 ```
 В переменые вынесены только цвета colors.styl (Если хотим перекрасить дефолтную тему island, сохранением зависимостей оттенков)
 ```
-    git clone https://github.com/bemcustom/bemcustom-components --branch cosmetic design
+git clone https://github.com/bemcustom/bemcustom-components --branch cosmetic design
 ```
 
     
