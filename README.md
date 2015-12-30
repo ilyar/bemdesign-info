@@ -19,6 +19,10 @@ export PATH=./node_modules/.bin:$PATH
 ```
 bem server
 ```
+Открываем в браузере
+```
+http://localhost:8080/desktop.bundles/index/index.html
+```
     
 ## Только bemcustom-components    
 Если хотим использовать только кастомноую версию БЭМ компонентов, то нужно заменить дефолтную папку libs/bem-components/design в вашем project-stub на:
