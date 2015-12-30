@@ -1,25 +1,24 @@
 ```
 bemcustom-blocks
    ├── desktop.blocks
-   │   └── text - https://github.com/bemcustom/bemcustom-typography
+   │   └── text 
    └── libs
        └── bem-components
            └── design 
-               ├── colors.sty - https://github.com/bemcustom/bemcustom-components/blob/custom/design/colors.styl
-               └── custom.styl - https://github.com/bemcustom/bemcustom-components/blob/custom/design/custom.styl
+               ├── colors.styl
+               ├── custom.styl
+               └── spaces.styl 
 ```
 
 #bemcustom - Гайд по кастомизации
-Библиотека **bemcustom** - https://github.com/bemcustom состоит из двух основных составляющих **bemcustom-components** - https://github.com/bemcustom/bemcustom-components и **bemcustom-blocks** - https://github.com/bemcustom/bemcustom-blocks. В свою очередь **bemcustom-components** входит в состав **bemcustom-blocks**. И если вы хотите кастомизировать только основные БЭМ компоненты без использования блоков, то вы легко можете это сделать.
-
+Библиотека **bemcustom** состоит из двух основных составляющих блоков и компонентов. В свою очередь блоки построены на основе компонентов. Есть возможность использовать только кастомную библиотеку компонентов без библиотеки. 
 
 ##bemcustom-components
-Предусмотренно два вариант кастомизации БЭМ компонентов
-* Перекрасшиваем тему Яндекс тему island, с сохранением всех зависимостей оттенков:
-	** **bemcustom-colors** - https://github.com/bemcustom/bemcustom-colors
-	** **Как проходила кастомизация цвета** - http://codepen.io/koloskof/pen/NGmeGL
+Предусмотренно два вариант кастомизации БЭМ компонентов:
 
-* Полная кастомизация всех параметров (цвета, отступы, границы, скругления итд)
+1. Перекрашиваем тему Яндекс тему island, с сохранением всех зависимостей оттенков - https://github.com/bemcustom/bemcustom-components/tree/cosmetic
+
+2. Полная кастомизация всех параметров (цвета, отступы, границы, скругления итд) - https://github.com/bemcustom/bemcustom-components/tree/custom
 
 #### Текст
 **Attach, Button, Checkbox, Input, Link, Radio, Select, Textarea**
@@ -50,9 +49,9 @@ bemcustom-blocks
 * Размер (активной, неактивной части)
 * Цвет (активной, неактивной части)
 
-##bemcustom-typography
-Вся типографика умышленно вынесена в отделный компонент. Для кастомизации ключевых параметров нужно поменять значения. Значание s должно совпадать со значениями - bem-components s-size, а значание m должно совпадать со значениями - bem-components l-size.
 
 ##bemcustom-blocks
-Если вы кастомизировали только компененты и типографику, а затем решили использовать блоки то вам необходимо скопировать design и text в bemcustom-blocks. И можно начинать структурную и более детальную кастомизацию самих блоков.
+После кастомизации компонентов можно приступить детальной кастомизации блоков. В блоки импортируются переменные цветов из компонентов colors.styl Дополнительно основные отспуты тоже вынесены в переменные spaces.styl 
+
+Типографика является значимой часть всех блоков. Поэтому она была вынесена в отдельный блок .text Используя его с нужными модификаторами (или связкой модификаторов), мы покрываем все основные стилистические моменты необходимые для стилистического отображения текста.
 
