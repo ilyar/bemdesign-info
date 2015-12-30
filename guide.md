@@ -1,10 +1,10 @@
 ```
-bemcustom-blocks
-   ├── desktop.blocks
+bemcustom
+   ├── desktop.blocks (bemcustom-blocks)
    │   └── text 
    └── libs
        └── bem-components
-           └── design 
+           └── design (bemcustom-components)
                ├── colors.styl
                ├── custom.styl
                └── spaces.styl 
