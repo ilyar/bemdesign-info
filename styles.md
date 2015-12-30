@@ -5,18 +5,18 @@
 
 #### project
  * **project** - hsl(48, 100%, 50%) - #fc0 
- * **lighten($project, 15%)** - hsl(48, 100%, 65%) - #ffdb4d
- * **lighten($project, 31%)** - hsl(47, 100%, 81%) - #ffeba0   
+ * **lighten($project, 65%)** - hsl(48, 100%, 65%) - #ffdb4d
+ * **lighten($project, 81%)** - hsl(47, 100%, 81%) - #ffeba0   
 
 ### base
  * **base** - hsl(0, 0%, 0%) - #000
- * **darken($base, 32%)** - hsl(0, 0%, 18%) - #2e2e2e 
- * **lighten($base, 10%)** - hsl(0, 0%, 60%) -  #999
- * **lighten($base, 30%)** - hsl(0, 0%, 80%) - #ccc
+ * **lighten($base, 18%)** - hsl(0, 0%, 18%) - #2e2e2e 
+ * **lighten($base, 60%)** - hsl(0, 0%, 60%) -  #999
+ * **lighten($base, 80%)** - hsl(0, 0%, 80%) - #ccc
  
 ### normal
  * **normal** - hsl(40, 14%, 96%) - #f6f5f3
- * **darken($normal, 10%)** - hsl(40, 14%, 86%) - #e0ddd6   
+ * **lighten($normal, 86%)** - hsl(40, 14%, 86%) - #e0ddd6   
  
 ### clean
  * **clean** - hsl(0, 0%, 100%) - #fff
