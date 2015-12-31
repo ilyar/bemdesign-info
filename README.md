@@ -21,9 +21,9 @@
  bem server
  ```
 
-5. Запускаем сервер
+5. Открываем в браузере
  ```
- bem server
+ http://localhost:8080/desktop.bundles/index/index.html
  ```
     
 ## Только bemcustom-components    
