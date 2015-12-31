@@ -1,7 +1,6 @@
 # bemcustom-style
 
-## Сolors
-### the Big Colors theory - http://codepen.io/koloskof/pen/NGmeGL
+## Сolors (http://codepen.io/koloskof/pen/NGmeGL)
 
 #### project
  * **project** - hsl(48, 100%, 50%) - #fc0 
