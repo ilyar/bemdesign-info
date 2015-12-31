@@ -2,14 +2,14 @@
 
 ## bemcustom-blocks + bemcustom-components
 1. Клонируем библиотеку блоков
-```
-git clone https://github.com/bemcustom/bemcustom-blocks bemcustom
-```
+ ```
+ git clone https://github.com/bemcustom/bemcustom-blocks bemcustom
+ ```
  
 2. Устанавливаем все необходимые зависимости
-```
-npm i 
-```
+ ```
+ npm i 
+ ```
 
 3. Чтобы не указывать путь к исполняемому файлу (node_modules/.bin/enb) используем:
 ```
