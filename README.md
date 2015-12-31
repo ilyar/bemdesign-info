@@ -20,9 +20,10 @@
  ```
  bem server
  ```
-5. Открываем в браузере http://localhost:8080/desktop.bundles/index/index.html
+
+5. Запускаем сервер
  ```
- export PATH=./node_modules/.bin:$PATH
+ bem server
  ```
     
 ## Только bemcustom-components    
