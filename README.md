@@ -12,17 +12,18 @@
  ```
 
 3. Чтобы не указывать путь к исполняемому файлу (node_modules/.bin/enb) используем:
-```
-export PATH=./node_modules/.bin:$PATH
-```
+ ```
+ export PATH=./node_modules/.bin:$PATH
+ ```
+ 
 4. Запускаем сервер
-```
-bem server
-```
+ ```
+ bem server
+ ```
 5. Открываем в браузере
-```
-http://localhost:8080/desktop.bundles/index/index.html
-```
+ ```
+ http://localhost:8080/desktop.bundles/index/index.html
+ ```
     
 ## Только bemcustom-components    
 Если хотим использовать только кастомноую версию БЭМ компонентов, то нужно заменить дефолтную папку libs/bem-components/design в вашем project-stub. 
@@ -30,25 +31,25 @@ http://localhost:8080/desktop.bundles/index/index.html
 1. Выбираем один из вариантов:
 
 Все изменяемые параметры вынесенны в переменные custom.styl + colors.styl
-```
-git clone https://github.com/bemcustom/bemcustom-components --branch custom design
-```
+ ```
+ git clone https://github.com/bemcustom/bemcustom-components --branch custom design
+ ```
 или
 
 В переменые вынесены только цвета colors.styl (Если хотим перекрасить дефолтную тему island, сохранением зависимостей оттенков)
-```
-git clone https://github.com/bemcustom/bemcustom-components --branch cosmetic design
+ ```
+ git clone https://github.com/bemcustom/bemcustom-components --branch cosmetic design
 ```
 
 2. Запускаем сервер
-```
-bem server
-```
+ ```
+ bem server
+ ```
 
 3. Открываем в браузере
-```
-http://localhost:8080/desktop.bundles/components/components.html
-```
+ ```
+ http://localhost:8080/desktop.bundles/components/components.html
+ ```
 
 
 
