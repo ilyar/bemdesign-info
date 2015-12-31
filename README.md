@@ -1,25 +1,25 @@
 #bemcustom Install
 
 ## bemcustom-blocks + bemcustom-components
-Клонируем библиотеку блоков
+1 Клонируем библиотеку блоков
 ```
 git clone https://github.com/bemcustom/bemcustom-blocks bemcustom
 ```
  
-Устанавливаем все необходимые зависимости
+2 Устанавливаем все необходимые зависимости
 ```
 npm i 
 ```
 
-Чтобы не указывать путь к исполняемому файлу (node_modules/.bin/enb) используем:
+3 Чтобы не указывать путь к исполняемому файлу (node_modules/.bin/enb) используем:
 ```
 export PATH=./node_modules/.bin:$PATH
 ```
-Запускаем сервер
+4 Запускаем сервер
 ```
 bem server
 ```
-Открываем в браузере
+5 Открываем в браузере
 ```
 http://localhost:8080/desktop.bundles/index/index.html
 ```
