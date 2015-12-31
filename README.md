@@ -6,20 +6,20 @@
 git clone https://github.com/bemcustom/bemcustom-blocks bemcustom
 ```
  
-2 Устанавливаем все необходимые зависимости
+2. Устанавливаем все необходимые зависимости
 ```
 npm i 
 ```
 
-3 Чтобы не указывать путь к исполняемому файлу (node_modules/.bin/enb) используем:
+3. Чтобы не указывать путь к исполняемому файлу (node_modules/.bin/enb) используем:
 ```
 export PATH=./node_modules/.bin:$PATH
 ```
-4 Запускаем сервер
+4. Запускаем сервер
 ```
 bem server
 ```
-5 Открываем в браузере
+5. Открываем в браузере
 ```
 http://localhost:8080/desktop.bundles/index/index.html
 ```
@@ -27,7 +27,7 @@ http://localhost:8080/desktop.bundles/index/index.html
 ## Только bemcustom-components    
 Если хотим использовать только кастомноую версию БЭМ компонентов, то нужно заменить дефолтную папку libs/bem-components/design в вашем project-stub. 
 
-1 Выбираем один из вариантов:
+1. Выбираем один из вариантов:
 
 Все изменяемые параметры вынесенны в переменные custom.styl + colors.styl
 ```
@@ -40,12 +40,12 @@ git clone https://github.com/bemcustom/bemcustom-components --branch custom desi
 git clone https://github.com/bemcustom/bemcustom-components --branch cosmetic design
 ```
 
-2 Запускаем сервер
+2. Запускаем сервер
 ```
 bem server
 ```
 
-3 Открываем в браузере
+3. Открываем в браузере
 ```
 http://localhost:8080/desktop.bundles/components/components.html
 ```
