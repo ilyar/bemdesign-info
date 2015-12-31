@@ -29,13 +29,13 @@ http://localhost:8080/desktop.bundles/index/index.html
 
 1. Выбираем один из вариантов:
 
- Все изменяемые параметры вынесенны в переменные custom.styl + colors.styl
+Все изменяемые параметры вынесенны в переменные custom.styl + colors.styl
 ```
 git clone https://github.com/bemcustom/bemcustom-components --branch custom design
 ```
 или
 
- В переменые вынесены только цвета colors.styl (Если хотим перекрасить дефолтную тему island, сохранением зависимостей оттенков)
+В переменые вынесены только цвета colors.styl (Если хотим перекрасить дефолтную тему island, сохранением зависимостей оттенков)
 ```
 git clone https://github.com/bemcustom/bemcustom-components --branch cosmetic design
 ```
