@@ -20,9 +20,9 @@
  ```
  bem server
  ```
-5. Открываем в браузере
+5. Открываем в браузере http://localhost:8080/desktop.bundles/index/index.html
  ```
- http://localhost:8080/desktop.bundles/index/index.html
+ export PATH=./node_modules/.bin:$PATH
  ```
     
 ## Только bemcustom-components    
