@@ -1,7 +1,8 @@
 ```
 bemcustom
    ├── desktop.blocks (bemcustom-blocks)
-   │   └── text 
+   │   ├── text  
+   │   └── ... (different blocks) 
    └── libs
        └── bem-components
            └── design (bemcustom-components)
