@@ -30,7 +30,7 @@
 ## Только bemcustom-components    
 Если хотим использовать только кастомноую версию БЭМ компонентов, то нужно заменить дефолтную папку libs/bem-components/design в вашем project-stub. 
 
-1. Клонируем библиотеку кастомных компонентов
+1. Клонируем библиотеку кастомных компонентов (заменяем текущую папку design)
  ```
  git clone https://github.com/bemcustom/bemcustom-components --branch custom design
  ```
