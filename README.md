@@ -2,12 +2,12 @@
 #bemcustom Install
 
 ## Полный пакет bemcustom-blocks + bemcustom-components
-1. Клонируем библиотеку блоков
+1 Клонируем библиотеку блоков
 ```
 git clone https://github.com/bemcustom/bemcustom-blocks bemcustom
 ```
  
-2. Устанавливаем все необходимые зависимости
+2 Устанавливаем все необходимые зависимости
 ```
 npm i 
 ```
@@ -17,7 +17,7 @@ npm i
 export PATH=./node_modules/.bin:$PATH
 ```
  
-4. Клонируем библиотеку кастомных компонентов (заменяем текущую папку design)
+4 Клонируем библиотеку кастомных компонентов (заменяем текущую папку design)
 ```
 cd libs/bem-components/
 ```
@@ -28,12 +28,12 @@ sudo rm -r folderName
 git clone https://github.com/bemcustom/bemcustom-components --branch custom design
 ```
  
-5. Запускаем сервер
+5 Запускаем сервер
 ```
 bem server
 ```
 
-6. Открываем в браузере
+6 Открываем в браузере
 ```
 http://localhost:8080/desktop.bundles/index/index.html
 ```
