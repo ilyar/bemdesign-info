@@ -2,12 +2,12 @@
 #bemcustom Install
 
 ## Полный пакет bemcustom-blocks + bemcustom-components
-1 Клонируем библиотеку блоков
+1. Клонируем библиотеку блоков
 ```
 git clone https://github.com/bemcustom/bemcustom-blocks bemcustom
 ```
  
-2 Устанавливаем все необходимые зависимости
+2. Устанавливаем все необходимые зависимости
 ```
 npm i 
 ```
