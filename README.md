@@ -4,7 +4,7 @@
 ## Полный пакет bemcustom-blocks + bemcustom-components
 1. Клонируем библиотеку блоков
  ```
- git clone https://github.com/bemcustom/bemcustom-blocks bemcustom
+ git clone https://github.com/bemcustom/bemcustom-blocks --branch master bemcustom
  ```
  
 2. Устанавливаем все необходимые зависимости
@@ -22,7 +22,7 @@
  cd libs/bem-components/
  ```
  ```
- sudo rm -r folderName
+ sudo rm -r design
  ```
  ```
  git clone https://github.com/bemcustom/bemcustom-components --branch custom design
