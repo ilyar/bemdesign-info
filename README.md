@@ -31,7 +31,10 @@
  git clone https://github.com/bemcustom/bemcustom-components --branch custom design
 ```
  
-5. Запускаем сервер
+5. Возвращаемся в кореневую директорию и запускаем сервер
+ ```
+ cd ../../
+ ```
  ```
  bem server
  ```
