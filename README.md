@@ -7,7 +7,10 @@
  git clone https://github.com/bemcustom/bemcustom-blocks --branch master bemcustom
  ```
  
-2. Устанавливаем все необходимые зависимости
+2. Открываем папку и устанавливаем все необходимые зависимости
+ ```
+ cd bemcustom
+ ```
  ```
  npm i 
  ```
