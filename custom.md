@@ -6,7 +6,7 @@ bemcustom
    └── libs
        └── bem-components
            └── design (bemcustom-components)
-               ├── colors.styl
+               ├── colors.stylШирина / Высота
                ├── custom.styl
                └── spaces.styl 
 ```
@@ -37,7 +37,7 @@ bemcustom
 	#### Стили для добавочных, внутренних элементов 
 	**галочка у Checkbox / точка у Radio / стрелка у Select / иконка у Button / иконка у Input / иконка у Menu-item**
 	* Позиционирование
-	* Ширина / Высота
+	* Ширина/Высота
 	* Фоновое изображение
 	
 	#### Индикаторы
