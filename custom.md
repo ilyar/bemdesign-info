@@ -6,7 +6,7 @@ bemcustom
    └── libs
        └── bem-components
            └── design (bemcustom-components)
-               ├── colors.stylШирина / Высота
+               ├── colors.styl
                ├── custom.styl
                └── spaces.styl 
 ```
