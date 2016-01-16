@@ -28,7 +28,7 @@
  sudo rm -r design
  ```
  ```
- git clone https://github.com/bemcustom/bemcustom-components --branch custom design
+ git clone https://github.com/bemdesign/bemdesign-components --branch custom design
 ```
  
 5. Возвращаемся в кореневую директорию и запускаем сервер
