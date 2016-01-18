@@ -4,12 +4,12 @@
 ## Полный пакет bemcustom-blocks + bemcustom-components
 1. Клонируем библиотеку блоков
  ```
- git clone https://github.com/bemcustom/bemcustom-blocks --branch master bemcustom
+ git clone https://github.com/bemdesign/bemdesign-blocks --branch master bemdesign
  ```
  
 2. Открываем папку и устанавливаем все необходимые зависимости
  ```
- cd bemcustom
+ cd bemdesign
  ```
  ```
  npm i 
