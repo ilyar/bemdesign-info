@@ -1,7 +1,7 @@
 
 #bemcustom Install
 
-## Полный пакет bemcustom-blocks + bemcustom-components
+## Полный пакет bemdesign-blocks + bemdesign-components
 1. Клонируем библиотеку блоков
  ```
  git clone https://github.com/bemdesign/bemdesign-blocks --branch master bemdesign
