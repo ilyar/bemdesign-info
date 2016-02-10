@@ -20,26 +20,12 @@
  export PATH=./node_modules/.bin:$PATH
  ```
  
-4. Клонируем библиотеку кастомных компонентов (заменяем текущую папку design)
- ```
- cd libs/bem-components/
- ```
- ```
- sudo rm -r design
- ```
- ```
- git clone https://github.com/bemdesign/bemdesign-components --branch custom design
-```
- 
-5. Возвращаемся в кореневую директорию и запускаем сервер
- ```
- cd ../../
- ```
+4. Запускаем сервер
  ```
  bem server
  ```
 
-6. Открываем в браузере
+5. Открываем в браузере
  ```
  http://localhost:8080/desktop.bundles/index/index.html
  ```
